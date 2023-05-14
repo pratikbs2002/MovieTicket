@@ -1,0 +1,56 @@
+.booking-form-container {
+  margin-top: 30px;
+  background-color: rgba(4, 102, 74, 0.256);
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 50px 10px 10px 10px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.booking-form-container form .form-book {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.booking-form-container form .form-book label {
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.booking-form-container form .form-book input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+.book-form-submit-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-form-submit-button button {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  background-color: #d42828;
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 472px) {
+  .ticket-main-container .second-part {
+    width: 80%;
+  }
+}

@@ -1,0 +1,106 @@
+/* background start */
+.background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: -100;
+}
+.background img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  opacity: 0.1;
+  filter: grayscale(100%);
+}
+/* background finish */
+
+/* main-content */
+.ticket-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ticket-main-container .first-part {
+  padding: 20px;
+  width: 375px;
+  min-width: 300px;
+}
+.ticket-main-container .first-part img {
+  width: 100%;
+  border: 1px solid black;
+  object-fit: contain;
+}
+
+.ticket-main-container .second-part {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+  padding-top: 50px;
+}
+.ticket-main-container .second-part .title {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.genres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.genres ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+}
+
+.list {
+  padding: 8px 20px 8px 20px;
+  background-color: #353535;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid #ffd95a;
+  border-radius: 20px;
+}
+
+/* ticket book button */
+.book-ticket-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.book-ticket-button-container .book-ticket-button {
+  background-color: #e81515;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+}
+
